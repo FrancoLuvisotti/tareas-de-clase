@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilo2.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <form action="" method="POST">
+            <h2>Formulario de Datos Personales</h2> 
+            <fieldset>
+                <label for="nombre" >Nombre:</label> 
+                <input type="text" name="nombre" id="nombre" >
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido">  
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+
+                <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                <input type="date" name="fechaNacimiento" id="fechaNacimiento">
+
+                <label for="pais">País de Residencia:</label>
+                <input type="text" name="pais" id="pais">
+            
+                <input class="but"type="submit"  value="Enviar" onclick="return validarFormulario()"> 
+            </fieldset> 
+            <a class="but" href="formulario2.html">Estilo 1</a> 
+            <a class="but" href="index.html">Sin Estilo</a>
+        </form>
+
+    </main>
+    <footer></footer>
+    <script src="js/validacion.js"></script>
+</body>
+</html>

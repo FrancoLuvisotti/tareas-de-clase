@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+}
+
+header h1 {
+    color: red;
+}
+
+.cont1{
+    background-color: rgb(243, 126, 214);
+    height: 500px;
+    width: 30%;
+    float: left;
+}
+
+.lista{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.cont2{
+    border-style: dotted;
+    width: 39%;
+    height: 500px;
+    float: center;
+    float: left;
+}
+
+.cont3{
+    width: 30%;
+    height: 500px;
+    background-color: aqua;
+    float: left;
+}
+
+footer{
+    float: inline-end;
+    background-color: gray;
+}
+
