@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(31, 58, 37);
+    background-color: rgb(31, 34, 58);
 }
 
 label{
@@ -31,7 +31,7 @@ h2{
 
 .button{
 padding: 7px;
-background-color: rgb(54, 102, 64);
+background-color: rgb(59, 54, 102);
 color:rgb(0, 0, 0);
 border:none;
 border-radius: 3px;
@@ -41,7 +41,7 @@ text-decoration: none;
 
 
 .button:hover {
-    background-color: #881536;
+    background-color: #158824;
     color: white;
 }
 
